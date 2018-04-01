@@ -1,10 +1,10 @@
 public class LikesStatistic {
     public static void main(String[] args) {
-        long likesCount = 1045; // Input: any valid number of likes
-        int registrationYear = 2010; // Input: any valid registration year
+        long likesCount = 1045; 
+        int registrationYear = 2010;
         int currentYear = java.time.Year.now().getValue();
 
-        double likesPerYear = likesCount / (currentYear - registrationYear); // Your formula
+        double likesPerYear = likesCount / (currentYear - registrationYear);
 
         System.out.println(likesPerYear + " likes / year");
     }
