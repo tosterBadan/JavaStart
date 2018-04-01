@@ -11,4 +11,4 @@ and save file;
 ~\jar -cf hello.jar HelloWorld.class
 
 3. now we can run our *.jar:
-~\java -cp hello.jar HelloWorld.class
+~\java -cp hello.jar HelloWorld
